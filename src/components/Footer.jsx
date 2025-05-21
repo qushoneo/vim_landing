@@ -6,7 +6,7 @@ import LinkedinLogo from "../assets/linkedin_logo.svg";
 
 import { useTranslation } from "react-i18next";
 
-export default function Footer() {
+export default function Footer({ setTab, tabs }) {
   const { t } = useTranslation();
 
   return (
@@ -33,11 +33,15 @@ export default function Footer() {
         <div className="footer-col">
           <p className="footer-col-title">Vim Global</p>
 
-          <div className="footer-col-content">
-            <p>Vim Profile ID</p>
-            <p>Vim Business ID</p>
-            <p>Vim Enterprise Social Network</p>
-          </div>
+          <a href="#vim_anchor">
+            <div className="footer-col-content">
+              <p onClick={() => setTab(tabs[0])}>Vim Profile ID</p>
+              <p onClick={() => setTab(tabs[1])}>Vim Business ID</p>
+              <p onClick={() => setTab(tabs[2])}>
+                Vim Enterprise Social Network
+              </p>
+            </div>
+          </a>
         </div>
         <div className="footer-col">
           <p className="footer-col-title">{t("footer_col_3")}</p>

@@ -10,8 +10,39 @@ import Reason from "./components/Reason";
 import Reviews from "./components/Reviews";
 import WarsawExpo from "./components/WarsawExpo";
 import Footer from "./components/Footer";
+import { useState } from "react";
+import KeyIcon from "./assets/key.png";
+import OfficeIcon from "./assets/office.png";
+import BrainIcon from "./assets/brain.png";
+import ProfileIdTab from "./components/profile_id/tabs/ProfileIdTab";
+import BusinessIdTab from "./components/profile_id/tabs/BusinessIdTab";
+import EsnTab from "./components/profile_id/tabs/EsnTab";
+
 function App() {
   const { t } = useTranslation();
+
+  const tabs = [
+    {
+      id: "vim-profile-id",
+      name: t("vim_profile_id"),
+      icon: KeyIcon,
+      paddingLeft: 0,
+      component: <ProfileIdTab />,
+    },
+    {
+      id: "vim-business-id",
+      name: t("vim_business_id"),
+      icon: OfficeIcon,
+      component: <BusinessIdTab />,
+    },
+    {
+      id: "vim-ESN",
+      name: t("vim_ESN"),
+      icon: BrainIcon,
+      component: <EsnTab />,
+    },
+  ];
+  const [tab, setTab] = useState(tabs[0]);
 
   return (
     <div className="app">
@@ -20,7 +51,7 @@ function App() {
       <main>
         <Init />
 
-        <ProfileId />
+        <ProfileId tab={tab} setTab={setTab} tabs={tabs} />
 
         <WhatInside />
 
@@ -33,7 +64,7 @@ function App() {
         <WarsawExpo />
       </main>
 
-      <Footer />
+      <Footer setTab={setTab} tabs={tabs} />
     </div>
   );
 }

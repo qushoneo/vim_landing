@@ -1,0 +1,8 @@
+{
+  "members": {
+    "memberFullName": "ФИО",
+    "memberCompanyAndPosition": "Компания и должность",
+    "memberHobbies": "Хобби",
+    "vim": "ВИМ"
+  }
+} 

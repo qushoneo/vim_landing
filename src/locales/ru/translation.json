@@ -1,0 +1,125 @@
+{
+  "hint": "Для кого",
+  "for_whom": "Преимущества",
+  "description": "Соберите свою социальную сеть.\n Легко. Под своим брендом.",
+  "demo":"Демо",
+  "register":"Зарегистрироваться",
+  "signup": "Регистрация",
+  "social_network":"Ваша соцсеть на базе Vim Global",
+  "all_in_one":"Всё в одном месте!",
+  "vim_profile_id":"Vim Profile ID",
+  "vim_business_id":"Vim Business ID",
+  "vim_ESN":"Vim ESN",
+  "profile_id_description":"Цифровой профиль каждого участника:",
+  "vim_profile_id_description_1":"Биография",
+  "vim_profile_id_description_2":"CV",
+  "vim_profile_id_description_3":"Офферы",
+  "vim_profile_id_description_4":"Презентации",
+  "vim_profile_id_description_5":"Визитка прямо в смартфоне",
+  "login":"Войти",
+
+  "business_id_description":"Главная страница вашей экосистемы: миссия, роли, структура, доступы — всё под контролем.",
+  "esn_description":"Вся цифровая инфраструктура сообщества под капотом",
+
+  "what_inside_title":"Что внутри",
+
+  "what_inside_1": "Каталог участников с фильтрацией по интересам, ролям, и географии",
+  "what_inside_2": "События, билеты, клубные карты (внедряется)",
+  "what_inside_3": "Обучающая платформа и архивы (внедряется)",
+  "what_inside_4": "Встроенный чат (внедряется)",
+  "what_inside_5": "Умные ссылкки, QR-коды, интеграции",
+  "what_inside_6": "Брендированный календарь",
+  "what_inside_7": "Монетизация: витрина партнёров, доступ, коллаборации, интеграции",
+
+  "who_is_customer_title": "Кому подходит Vim Global?",
+
+  "who_is_customer_title_1": "Экспертам \n и блогерам",
+  "who_is_customer_description_1": "авторам с аудиторией",
+  "who_is_customer_title_2": "Создателям бизнес-клубов",
+  "who_is_customer_description_2": "Создателям бизнес-клубов и профессиональных сообществ",
+  "who_is_customer_title_3": "Профессиональных \n сообществ",
+  "who_is_customer_description_3": "Создателям бизнес-клубов и профессиональных сообществ",
+  "who_is_customer_title_4": "Наставникам, онлайн-школам",
+  "who_is_customer_description_4": "Организаторам марафонов",
+  "who_is_customer_title_5": "HR-командам, корпоративным комьюнити",
+  "who_is_customer_description_5": "Тем, кто проводит обучение, встречи и хочет создать актив",
+  "who_is_customer_title_6": "Всем, кто работает \n с людьми",
+  "who_is_customer_description_6": "Тем, кто работает с людьми, и хочет создать активную и развивающуюся соцсеть",
+
+  "reason_title": "Для чего это все?",
+  "reason_description": "До и После Vim",
+
+  "reason_disadvantages_title": "Боль",
+  "reason_disadvantage_1": "Хаос в чатах и потерянные люди",
+  "reason_disadvantage_2": "Новички не включаются в сообщество",
+  "reason_disadvantage_3": "Контент и обсуждения размазаны по платформам",
+  "reason_disadvantage_4": "Ваш бренд теряется на чужих платформах",
+  "reason_disadvantage_5": "Нельзя масштабироваться",
+  "reason_disadvantage_6": "Всё на ручном управлении",
+
+  "reason_avantages_title": "Решение",
+  "reason_avantage_1": "Умная структура и фильтрация по интересам",
+  "reason_avantage_2": "Гибкие сценарии вовлечения",
+  "reason_avantage_3": "Всё в одном: чат, курсы, события, маркетплейс",
+  "reason_avantage_4": "Полное брендирование и контроль",
+  "reason_avantage_5": "Готовая система роста",
+  "reason_avantage_6": "Автоматизация и геймификация",
+
+  "reviews_title": "Это — экосистема, в которой ваше сообщество:",
+  "reviews_description": "Растёт, Продаёт, Вовлекает, Остаётся с вами!",
+
+  "review_alexey_name": "Алексей",
+  "review_alexey": "Собрали 300+ участников за неделю!",
+  "review_alexey_company": "Предприниматель и основатель бизнес-клуба",
+
+  "review_irina_name": "Ирина",
+  "review_irina": "Продали курс без воронок",
+  "review_irina_company": "Наставник и автор онлайн-школы",
+
+  "review_sergey_name": "Сергей",
+  "review_sergey": "Глубже узнали свою аудиторию",
+  "review_sergey_company": "HR-менеджер в IT-компании",
+
+  "review_maria_name": "Мария",
+  "review_maria": "Наконец-то всё в одном месте",
+  "review_maria_company": "Организатор марафонов",
+
+  "review_oleg_name": "Олег",
+  "review_oleg": "Появились новые партнёры",
+  "review_oleg_company": "Эксперт и блогер",
+
+  "review_ekaterina_name": "Екатерина",
+  "review_ekaterina": "Бренд вышел за пределы соцсетей",
+  "review_ekaterina_company": "PR-специалист сообщества",
+
+  "networking_invite": "Получите доступ к нетворкингу",
+
+  "footer_col_3": "Для чего и кому",
+
+  "main": {
+    "members": {
+      "memberFullName": "ФИО",
+      "memberCompanyAndPosition": "Компания и должность",
+      "memberHobbies": "Хобби",
+      "vim": "ВИМ",
+      "contacts": "Контакты"
+    }
+  },
+
+  "profile": {
+    "header_title": "Участники",
+    "header_subtitle": "Участники сообщества"
+  },
+
+  "sign_up_forum": "Зарегистрируйтесь, чтобы искать партнеров и полезные знакомства!",
+
+  "forum_table": {
+    "member": "Участник",
+    "about": "О себе",
+    "contacts": "Контакты",
+    "vim_profile": "Профиль VIM"
+  },
+
+  "prev": "Предыдущая",
+  "next": "Следующая"
+}

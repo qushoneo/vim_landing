@@ -1,0 +1,108 @@
+{
+    "hint": "For whom?",
+    "for_whom": "Why?",
+    "description": "Build your own social network.\n Easily. Under your own brand.",
+    "demo": "Demo",
+    "register": "Register",
+    "social_network": "Your social network powered by Vim Global",
+    "all_in_one": "Everything in one place!",
+    "vim_profile_id": "Vim Profile ID",
+    "vim_business_id": "Vim Business ID",
+    "vim_ESN": "Vim ESN",
+    "profile_id_description": "Digital profile of each member:",
+    "vim_profile_id_description_1": "Biography",
+    "vim_profile_id_description_2": "CV",
+    "vim_profile_id_description_3": "Offers",
+    "vim_profile_id_description_4": "Presentations",
+    "vim_profile_id_description_5": "Business card right on your smartphone",
+    "login": "Login",
+
+    "business_id_description": "The main page of your ecosystem: mission, roles, structure, access — everything under control.",
+    "esn_description": "The entire digital infrastructure of the community under the hood",
+
+    "what_inside_title": "What's inside",
+
+    "what_inside_1": "Member directory with filtering by interests, roles, and geography",
+    "what_inside_2": "Events, tickets, club cards (coming soon)",
+    "what_inside_3": "Learning platform and archives (coming soon)",
+    "what_inside_4": "Built-in chat (coming soon)",
+    "what_inside_5": "Smart links, QR codes, integrations",
+    "what_inside_6": "Branded calendar",
+    "what_inside_7": "Monetization: partner showcase, access, collaborations, integrations",
+
+    "who_is_customer_title": "Who is Vim Global for?",
+
+    "who_is_customer_title_1": "Experts \n and bloggers",
+    "who_is_customer_description_1": "Authors with an audience",
+    "who_is_customer_title_2": "Business club creators",
+    "who_is_customer_description_2": "Creators of business clubs and professional communities",
+    "who_is_customer_title_3": "Professional \n communities",
+    "who_is_customer_description_3": "Creators of business clubs and professional communities",
+    "who_is_customer_title_4": "Mentors, online schools",
+    "who_is_customer_description_4": "Marathon organizers",
+    "who_is_customer_title_5": "HR teams, corporate communities",
+    "who_is_customer_description_5": "Those who conduct training, meetings, and want to create an asset",
+    "who_is_customer_title_6": "Everyone who works \n with people",
+    "who_is_customer_description_6": "Those who work with people and want to create an active and developing social network",
+
+    "reason_title": "Why all this?",
+    "reason_description": "Before and After Vim",
+
+    "reason_disadvantages_title": "Pain",
+    "reason_disadvantage_1": "Chaos in chats and lost people",
+    "reason_disadvantage_2": "Newcomers don't get involved in the community",
+    "reason_disadvantage_3": "Content and discussions are scattered across platforms",
+    "reason_disadvantage_4": "Your brand gets lost on other platforms",
+    "reason_disadvantage_5": "Can't scale",
+    "reason_disadvantage_6": "Everything is manual",
+
+    "reason_avantages_title": "Solution",
+    "reason_avantage_1": "Smart structure and filtering by interests",
+    "reason_avantage_2": "Flexible engagement scenarios",
+    "reason_avantage_3": "All-in-one: chat, courses, events, marketplace",
+    "reason_avantage_4": "Full branding and control",
+    "reason_avantage_5": "Ready-to-use growth system",
+    "reason_avantage_6": "Automation and gamification",
+
+    "reviews_title": "This is an ecosystem where your community:",
+    "reviews_description": "Grows, Sells, Engages, Stays with you!",
+
+    "review_alexey_name": "Alexey",
+    "review_alexey": "Gathered 300+ members in a week!",
+    "review_alexey_company": "Entrepreneur and business club founder",
+
+    "review_irina_name": "Irina",
+    "review_irina": "\"Sold a course without funnels\"",
+    "review_irina_company": "Mentor and online school author",
+
+    "review_sergey_name": "Sergey",
+    "review_sergey": "\"Got to know our audience better\"",
+    "review_sergey_company": "HR manager at an IT company",
+
+    "review_maria_name": "Maria",
+    "review_maria": "\"Finally, everything in one place\"",
+    "review_maria_company": "Marathon organizer",
+
+    "review_oleg_name": "Oleg",
+    "review_oleg": "\"Found new partners\"",
+    "review_oleg_company": "Expert and blogger",
+
+    "review_ekaterina_name": "Ekaterina",
+    "review_ekaterina": "\"The brand went beyond social networks\"",
+    "review_ekaterina_company": "Community PR specialist",
+
+    "networking_invite": "Get access to networking",
+
+    "footer_col_3": "Why and for whom",
+
+    "main": {
+      "members": {
+        "memberFullName": "Full Name",
+        "memberCompanyAndPosition": "Company and Position",
+        "memberHobbies": "Hobbies",
+        "vim": "VIM"
+      
+      }
+    }
+
+  }

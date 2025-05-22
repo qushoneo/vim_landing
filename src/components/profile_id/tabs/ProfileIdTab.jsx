@@ -7,19 +7,16 @@ export default function ProfileIdTab() {
   return (
     <div className="profile-id-tab">
       <div className="profile-id-tab__left">
-        <p style={{ fontSize: 58 }}>🔑</p>
+        <p style={{ fontSize: 38 }}>🔑</p>
         <p className="profile-id-tab__left-title">Vim Profile ID</p>
 
         <p className="profile-id-tab__left-description">
           {t("profile_id_description")}
         </p>
-        <ul>
-          <li>{t("vim_profile_id_description_1")}</li>
-          <li>{t("vim_profile_id_description_2")}</li>
-          <li>{t("vim_profile_id_description_3")}</li>
-          <li>{t("vim_profile_id_description_4")}</li>
-          <li>{t("vim_profile_id_description_5")}</li>
-        </ul>
+
+        <p className="profile-id-tab__left-description">
+          {t("profile_id_description_2")}
+        </p>
       </div>
 
       <div className="profile-id-tab__right">

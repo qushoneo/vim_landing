@@ -38,9 +38,9 @@
     height: 56px;
 
     .profile-id-container-tab {
-      width: 33%;
+      width: fit-content;
       min-width: 100px;
-      max-width: 33%;
+      max-width: 30%;
       padding-left: 0px !important;
       display: flex;
       flex-direction: column;

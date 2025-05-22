@@ -7,19 +7,21 @@ export default function ProfileIdTab() {
   return (
     <div className="profile-id-tab">
       <div className="profile-id-tab__left">
-        <p style={{ fontSize: 58 }}>🧠</p>
-        <p className="profile-id-tab__left-title">Vim Profile ID</p>
-        <p className="profile-id-tab__left-description">
-          {t("profile_id_description")}
+        <p style={{ fontSize: 38 }}>🧠</p>
+        <p className="profile-id-tab__left-title">Enterprise Social Network</p>
+        <p
+          style={{ marginTop: 16, maxWidth: "90%" }}
+          className="profile-id-tab__left-description"
+        >
+          {t("esn_description_1")}
         </p>
-        <ul>
-          <li>{t("what_inside_1")}</li>
-          <li>{t("what_inside_2")}</li>
-          <li>{t("what_inside_3")}</li>
-          <li>{t("what_inside_4")}</li>
-          <li>{t("what_inside_5")}</li>
-          <li>{t("what_inside_6")}</li>
-          <li>{t("what_inside_7")}</li>
+        <ul style={{ marginTop: 16, maxWidth: "90%" }}>
+          <li>{t("esn_description_2")}</li>
+          <li>{t("esn_description_3")}</li>
+          <li>{t("esn_description_4")}</li>
+          <li>{t("esn_description_5")}</li>
+          <li>{t("esn_description_6")}</li>
+          <li>{t("esn_description_7")}</li>
         </ul>
       </div>
 

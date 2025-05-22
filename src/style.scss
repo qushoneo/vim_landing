@@ -50,6 +50,7 @@ header,
 .footer {
   display: flex;
   justify-content: center;
+  height: fit-content;
 }
 
 .header-container {
@@ -123,7 +124,8 @@ pre {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 543px;
+  min-height: 543px;
+  height: fit-content;
   width: 100%;
   position: relative;
 }
@@ -179,6 +181,7 @@ pre {
 .profile-id {
   background-color: $backgroundColor;
   height: 841px;
+  min-height: fit-content;
   padding: 64px;
   width: 100%;
 }
@@ -233,6 +236,12 @@ pre {
       line-height: 140%;
     }
   }
+}
+
+.profile-id-tab__left,
+.profile-id-tab,
+.profile-id-container {
+  min-height: fit-content;
 }
 
 .profile-id-tab {
@@ -316,7 +325,7 @@ pre {
   align-items: flex-start;
   gap: 64px;
   background: white;
-  height: 467px;
+  min-height: 467px;
   width: 100%;
   padding: 64px;
 }
@@ -329,8 +338,6 @@ pre {
   img {
     height: 339px;
     width: 520px;
-    box-shadow: 0 4px 32px -8px #0c0c0d66;
-    border: 1px solid #191919;
     border-radius: 8px;
   }
 }

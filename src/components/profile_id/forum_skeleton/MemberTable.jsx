@@ -47,8 +47,23 @@ export const MembersTableSkeleton = () => {
     "Максим",
   ];
 
+  const maleNames = [
+    "Александр",
+    "Дмитрий",
+    "Евгений",
+    "Иван",
+    "Кирилл",
+    "Максим",
+    "Николай",
+    "Олег",
+    "Павел",
+    "Роман",
+    "Сергей",
+    "Тимур",
+  ];
+
   const randomName = () => {
-    return names[Math.floor(Math.random() * names.length)];
+    return maleNames[Math.floor(Math.random() * maleNames.length)];
   };
 
   return (
@@ -102,44 +117,56 @@ export const MembersTableSkeleton = () => {
         </div>
 
         <div className="members-table-skeleton__table-container-body">
-          {Array.from({ length: rowsCount }).map((_, index) => (
-            <div
-              key={index}
-              className="members-table-skeleton__table-container-body-row"
-              style={{
-                height: isMobile ? ROW_HEIGHT : ROW_HEIGHT_DESKTOP,
-              }}
-            >
+          {Array.from({ length: rowsCount }).map((_, index) => {
+            let avatar = new URL(
+              `./avatars/avatar_${index + 1}.png`,
+              import.meta.url
+            ).href;
+
+            // real human
+            if (index >= 10) {
+              avatar = `https://randomuser.me/api/portraits/men/${
+                (index % 100) + 1
+              }.jpg`;
+            }
+            return (
               <div
-                className="members-table-skeleton__table-container-body-row-item-avatar"
+                key={index}
+                className="members-table-skeleton__table-container-body-row"
                 style={{
-                  minWidth: "25%",
-                  width: "25%",
-                  maxWidth: "25%",
+                  height: isMobile ? ROW_HEIGHT : ROW_HEIGHT_DESKTOP,
                 }}
               >
-                <img src={avatar} />
-                <p>{names?.[index] || randomName()}</p>
-              </div>
-
-              {[...Array(3)].map((_, index) => (
                 <div
-                  key={index}
-                  className="members-table-skeleton__table-container-body-row-item "
+                  className="members-table-skeleton__table-container-body-row-item-avatar"
                   style={{
-                    display: "flex",
-                    alignItems: "center",
                     minWidth: "25%",
                     width: "25%",
                     maxWidth: "25%",
-                    height: "24px",
                   }}
                 >
-                  <div className="members-table-skeleton__row-skeleton" />
+                  <img src={avatar} />
+                  <p>{names?.[index] || randomName()}</p>
                 </div>
-              ))}
-            </div>
-          ))}
+                {[...Array(3)].map((_, index) => (
+                  <div
+                    key={index}
+                    className="members-table-skeleton__table-container-body-row-item "
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      minWidth: "25%",
+                      width: "25%",
+                      maxWidth: "25%",
+                      height: "24px",
+                    }}
+                  >
+                    <div className="members-table-skeleton__row-skeleton" />
+                  </div>
+                ))}
+              </div>
+            );
+          })}
         </div>
       </div>
 

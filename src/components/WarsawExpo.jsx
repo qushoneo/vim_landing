@@ -17,6 +17,13 @@ export default function WarsawExpo() {
           text={t("register")}
           variant="red"
           size="medium"
+          onClick={() => {
+            window.open(
+              "https://vimapp.vim.global:4443/auth",
+              "_blank",
+              "noopener,noreferrer"
+            );
+          }}
         />
       </div>
     </div>

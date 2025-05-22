@@ -75,8 +75,30 @@ export default function Header() {
           <LanguageSelect className="mobile-hidden" />
 
           <div className="header-right-buttons mobile-hidden">
-            <Button text={t("login")} variant="primary" size="large" />
-            <Button text={t("signup")} variant="red" size="large" />
+            <Button
+              text={t("login")}
+              variant="primary"
+              size="large"
+              onClick={() => {
+                window.open(
+                  "https://vimapp.vim.global:4443/login",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            />
+            <Button
+              text={t("signup")}
+              variant="red"
+              size="large"
+              onClick={() => {
+                window.open(
+                  "https://vimapp.vim.global:4443/auth",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            />
           </div>
 
           <img

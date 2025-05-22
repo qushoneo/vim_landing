@@ -82,6 +82,11 @@ header {
 
 a:visited {
   color: unset;
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: none !important;
 }
 
 .header-right-buttons {
@@ -681,6 +686,12 @@ pre {
   p {
     color: white;
     font-size: 20px;
+  }
+
+  button {
+    p {
+      font-size: 16px !important;
+    }
   }
 }
 

@@ -31,6 +31,13 @@ export default function Init() {
               variant="red"
               size="medium"
               style={{ minWidth: "196px" }}
+              onClick={() => {
+                window.open(
+                  "https://vimapp.vim.global:4443/auth",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
             />
           </div>
         </div>

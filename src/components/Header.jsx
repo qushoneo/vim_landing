@@ -108,54 +108,50 @@ export default function Header() {
             className="desktop-hidden"
           />
 
-          <ClickOutsideListener onClickOutside={() => setIsMenuOpen(false)}>
-            <div
-              ref={menuRef}
-              className="header__dropdown-menu desktop-hidden"
-              style={{
-                display: isVisible ? "block" : "none",
-              }}
-            >
-              <div className="header__dropdown-menu-item">
-                <div className="header__dropdown-menu-item-title">
-                  <div>
-                    <p className="main">VIM.MAX</p>
-                    <p className="subtitle">by vim.marketing</p>
-                  </div>
+          <div
+            ref={menuRef}
+            className="header__dropdown-menu desktop-hidden"
+            style={{
+              display: isVisible ? "block" : "none",
+            }}
+          >
+            <div className="header__dropdown-menu-item">
+              <div className="header__dropdown-menu-item-title">
+                <div>
+                  <p className="main">VIM.MAX</p>
+                  <p className="subtitle">by vim.marketing</p>
+                </div>
 
-                  <LanguageSelect />
-                </div>
-                <div className="header__dropdown-menu-item-pages">
-                  {pages.map((page) => (
-                    <a href={page.path} key={page.name}>
-                      {page.name}
-                    </a>
-                  ))}
-                </div>
+                <LanguageSelect />
               </div>
-
-              <div className="header-right-buttons mobile">
-                <Button
-                  onClick={() => {
-                    window.location.href =
-                      "https://vimapp.vim.global:4443/login";
-                  }}
-                  text={t("login")}
-                  variant="primary"
-                  size="large"
-                />
-                <Button
-                  onClick={() => {
-                    window.location.href =
-                      "https://vimapp.vim.global:4443/auth";
-                  }}
-                  text={t("signup")}
-                  variant="red"
-                  size="large"
-                />
+              <div className="header__dropdown-menu-item-pages">
+                {pages.map((page) => (
+                  <a href={page.path} key={page.name}>
+                    {page.name}
+                  </a>
+                ))}
               </div>
             </div>
-          </ClickOutsideListener>
+
+            <div className="header-right-buttons mobile">
+              <Button
+                onClick={() => {
+                  window.location.href = "https://vimapp.vim.global:4443/login";
+                }}
+                text={t("login")}
+                variant="primary"
+                size="large"
+              />
+              <Button
+                onClick={() => {
+                  window.location.href = "https://vimapp.vim.global:4443/auth";
+                }}
+                text={t("signup")}
+                variant="red"
+                size="large"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </header>

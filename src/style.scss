@@ -34,7 +34,8 @@ html,
 .what-inside-container,
 .who-is-customer-container,
 .reason-container,
-.reviews-container .footer-conteiner {
+.reviews-container,
+.footer-conteiner {
   max-width: 1200px;
   width: 1200px;
 }
@@ -79,10 +80,22 @@ header {
   }
 }
 
+a:visited {
+  color: unset;
+}
+
 .header-right-buttons {
   display: flex;
   align-items: center;
   gap: 16px;
+
+  &.mobile {
+    margin-top: 16px;
+
+    button {
+      min-width: 45%;
+    }
+  }
 }
 
 .header-right-pages {

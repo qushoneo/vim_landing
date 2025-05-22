@@ -112,7 +112,7 @@ export default function Header() {
                 </div>
               </div>
 
-              <div className="header-right-buttons">
+              <div className="header-right-buttons mobile">
                 <Button
                   onClick={() => {
                     window.location.href =

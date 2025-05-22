@@ -20,6 +20,7 @@ import EsnTab from "./components/profile_id/tabs/EsnTab";
 
 function App() {
   const { t } = useTranslation();
+  // sorry for code in this project, 1 day deadline....... xD
 
   const tabs = [
     {

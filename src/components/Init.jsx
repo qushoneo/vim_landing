@@ -10,7 +10,7 @@ export default function Init() {
       <div className="main-content-init-shadow"></div>
       <div className="main-content-init-container">
         <div className="main-content-init-title">
-          <p className="main-content-init-title-text">VIM.Global</p>
+          <p className="main-content-init-title-text">VIM Global</p>
           <pre className="main-content-init-title-description">
             {t("description")}
           </pre>

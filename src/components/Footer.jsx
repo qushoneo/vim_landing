@@ -3,6 +3,8 @@ import XLogo from "../assets/x_logo.svg";
 import InstagramLogo from "../assets/instagram_logo.svg";
 import YoutubeLogo from "../assets/logo_yt.svg";
 import LinkedinLogo from "../assets/linkedin_logo.svg";
+import TelegramLogo from "../assets/telegram_logo.svg";
+import FacebookLogo from "../assets/facebook_logo.svg";
 
 import { useTranslation } from "react-i18next";
 
@@ -16,17 +18,29 @@ export default function Footer({ setTab, tabs }) {
           <img src={Logo} alt="logo" />
 
           <div className="footer-col-links">
-            <a href="https://x.com/vimglobal">
+            {/* <a target="_blank" href="https://x.com/vimglobal">
               <img src={XLogo} />
-            </a>
-            <a href="https://www.instagram.com/forum.boost/">
+            </a> */}
+            <a target="_blank" href="https://www.instagram.com/forum.boost/">
               <img src={InstagramLogo} />
             </a>
-            <a href="https://www.youtube.com/@BOOSTFORUM">
+            <a target="_blank" href="https://t.me/nfc_vim">
+              <img src={TelegramLogo} />
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@BOOSTFORUM">
               <img src={YoutubeLogo} />
             </a>
-            <a href="https://www.linkedin.com/company/vimcompany/">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/vimcompany/"
+            >
               <img src={LinkedinLogo} />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/people/Vim-Marketing/61569182005173/"
+            >
+              <img src={FacebookLogo} />
             </a>
           </div>
         </div>
@@ -35,6 +49,10 @@ export default function Footer({ setTab, tabs }) {
 
           <a href="#vim_anchor">
             <div className="footer-col-content">
+              <p>
+                <a href="#vim_anchor">{t("about_vim.title")}</a>
+              </p>
+
               <p onClick={() => setTab(tabs[0])}>Vim Profile ID</p>
               <p onClick={() => setTab(tabs[1])}>Vim Business ID</p>
               <p onClick={() => setTab(tabs[2])}>
@@ -44,10 +62,8 @@ export default function Footer({ setTab, tabs }) {
           </a>
         </div>
         <div className="footer-col">
-          <p className="footer-col-title">{t("footer_col_3")}</p>
-
           <div className="footer-col-content">
-            <a href="#for_whom_anchor">
+            <a href="#for_whom_anchor" style={{ marginTop: 20 }}>
               <p>{t("reason_title")}</p>
             </a>
             <a href="#hint_anchor">

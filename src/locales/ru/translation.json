@@ -120,6 +120,10 @@
     "vim_profile": "Профиль VIM"
   },
 
+  "about_vim": {
+    "title": "О Vim Global"
+  },
+
   "prev": "Предыдущая",
   "next": "Следующая"
 }

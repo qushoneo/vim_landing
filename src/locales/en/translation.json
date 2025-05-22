@@ -1,7 +1,7 @@
 {
   "hint": "For whom",
   "for_whom": "Benefits",
-  "description": "Build your own social network.\n Easily. Under your own brand.",
+  "description": "Build your own social network.\nEasy. Under your own brand.",
   "demo": "Demo",
   "register": "Register",
   "signup": "Sign up",
@@ -18,7 +18,7 @@
   "vim_profile_id_description_5": "Business card right on your smartphone",
   "login": "Log in",
 
-  "business_id_description": "The main page of your ecosystem: mission, roles, structure, access — everything under control.",
+  "business_id_description": "The main page of your ecosystem: mission, roles, structure, access — all under control.",
   "esn_description": "The entire digital infrastructure of your community under the hood",
 
   "what_inside_title": "What's inside",
@@ -34,28 +34,28 @@
   "who_is_customer_title": "Who is Vim Global for?",
 
   "who_is_customer_title_1": "Experts \n and bloggers",
-  "who_is_customer_description_1": "Authors with an audience",
+  "who_is_customer_description_1": "For authors with an audience",
   "who_is_customer_title_2": "Business club founders",
-  "who_is_customer_description_2": "Founders of business clubs and professional communities",
+  "who_is_customer_description_2": "For business club and professional community creators",
   "who_is_customer_title_3": "Professional \n communities",
-  "who_is_customer_description_3": "Founders of business clubs and professional communities",
+  "who_is_customer_description_3": "For business club and professional community creators",
   "who_is_customer_title_4": "Mentors, online schools",
-  "who_is_customer_description_4": "Marathon organizers",
+  "who_is_customer_description_4": "For marathon organizers",
   "who_is_customer_title_5": "HR teams, corporate communities",
-  "who_is_customer_description_5": "Those who conduct training, meetings, and want to create an asset",
+  "who_is_customer_description_5": "For those who conduct training, meetings, and want to create an asset",
   "who_is_customer_title_6": "Everyone who works \n with people",
-  "who_is_customer_description_6": "Those who work with people and want to create an active and growing social network",
+  "who_is_customer_description_6": "For those who work with people and want to create an active and growing social network",
 
-  "reason_title": "Why do you need all this?",
+  "reason_title": "Why do you need this?",
   "reason_description": "Before and After Vim",
 
   "reason_disadvantages_title": "Pain points",
   "reason_disadvantage_1": "Chaos in chats and lost people",
   "reason_disadvantage_2": "Newcomers don't get involved in the community",
-  "reason_disadvantage_3": "Content and discussions scattered across platforms",
-  "reason_disadvantage_4": "Your brand gets lost on third-party platforms",
-  "reason_disadvantage_5": "No way to scale",
-  "reason_disadvantage_6": "Everything is manual",
+  "reason_disadvantage_3": "Content and discussions are scattered across platforms",
+  "reason_disadvantage_4": "Your brand gets lost on other platforms",
+  "reason_disadvantage_5": "Impossible to scale",
+  "reason_disadvantage_6": "Everything is managed manually",
 
   "reason_avantages_title": "Solution",
   "reason_avantage_1": "Smart structure and filtering by interests",
@@ -118,6 +118,10 @@
     "about": "About",
     "contacts": "Contacts",
     "vim_profile": "VIM Profile"
+  },
+
+  "about_vim": {
+    "title": "About Vim Global"
   },
 
   "prev": "Previous",

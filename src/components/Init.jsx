@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
+
 export default function Init() {
   const { t } = useTranslation();
   const navigate = useNavigate();

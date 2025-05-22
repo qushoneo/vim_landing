@@ -1,8 +1,5 @@
 import { useTranslation } from "react-i18next";
-import KeyIcon from "../assets/key_large.png";
-import ChevronDownIcon from "../assets/chevrons.png";
-import CrossIcon from "../assets/cross.png";
-import CheckIcon from "../assets/check.png";
+import ChevronDownIcon from "../assets/chevrons.svg";
 import FallImage from "../assets/fall.svg";
 import GrowthImage from "../assets/growth.svg";
 
@@ -61,7 +58,7 @@ export default function Reason() {
     <div className="reason" id="for_whom_anchor">
       <div className="reason-container">
         <div className="reason-title-container">
-          <img src={KeyIcon} />
+          <p style={{ fontSize: 48 }}>🔑</p>
           <p className="reason-container-title">{t("reason_title")}</p>
           <p className="reason-container-description">
             {t("reason_description")}
@@ -72,7 +69,7 @@ export default function Reason() {
           <div className="reason-disadvantages reason-content-item">
             <div>
               <div className="reason-content-title">
-                <img src={CrossIcon} />
+                <p>❌</p>
                 <p> {t("reason_disadvantages_title")}</p>
               </div>
               <ul>
@@ -94,7 +91,7 @@ export default function Reason() {
           <div className="reason-avantages reason-content-item">
             <div>
               <div className="reason-content-title">
-                <img src={CheckIcon} />
+                <p>✅</p>
                 <p>{t("reason_avantages_title")}</p>
               </div>
               <ul className="reason-avantage">

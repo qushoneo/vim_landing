@@ -1,9 +1,9 @@
-import SmileIcon from "../assets/smile.png";
-import LockIcon from "../assets/lock.png";
-import KeyIcon from "../assets/key_red.png";
-import PenIcon from "../assets/pen.png";
-import UserIcon from "../assets/users.png";
-import UserPlusIcon from "../assets/user_plus.png";
+import SmileIcon from "../assets/smile.svg";
+import LockIcon from "../assets/lock.svg";
+import KeyIcon from "../assets/key.svg";
+import PenIcon from "../assets/pen.svg";
+import UserIcon from "../assets/users.svg";
+import UserPlusIcon from "../assets/users_plus.svg";
 import { useTranslation } from "react-i18next";
 
 export default function WhoIsCustomer() {

@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
-import rocket from "../../assets/rocket.png";
-import { useState, useRef, useEffect } from "react";
+import { useRef } from "react";
 
 import gsap from "gsap";
 
@@ -32,7 +31,7 @@ export default function ProfileId({ tab, setTab, tabs }) {
     <div className="profile-id" id="vim_anchor">
       <div className="profile-id-container">
         <div className="profile-id-container-left">
-          <img s src={rocket} />
+          <p style={{ fontSize: 58 }}>🚀</p>
         </div>
         <div className="profile-id-container_inner">
           <p className="profile-id-container-title">{t("social_network")}</p>
@@ -47,7 +46,7 @@ export default function ProfileId({ tab, setTab, tabs }) {
               key={_tab.id}
               onClick={() => handleTabChange(_tab)}
             >
-              <img src={_tab.icon} />
+              <p style={{ fontSize: 12 }}>{_tab.icon}</p>
               <p>{_tab.name}</p>
             </div>
           ))}

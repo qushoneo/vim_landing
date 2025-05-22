@@ -11,9 +11,6 @@ import Reviews from "./components/Reviews";
 import WarsawExpo from "./components/WarsawExpo";
 import Footer from "./components/Footer";
 import { useState } from "react";
-import KeyIcon from "./assets/key.png";
-import OfficeIcon from "./assets/office.png";
-import BrainIcon from "./assets/brain.png";
 import ProfileIdTab from "./components/profile_id/tabs/ProfileIdTab";
 import BusinessIdTab from "./components/profile_id/tabs/BusinessIdTab";
 import EsnTab from "./components/profile_id/tabs/EsnTab";
@@ -26,20 +23,20 @@ function App() {
     {
       id: "vim-profile-id",
       name: t("vim_profile_id"),
-      icon: KeyIcon,
+      icon: "🔑",
       paddingLeft: 0,
       component: <ProfileIdTab />,
     },
     {
       id: "vim-business-id",
       name: t("vim_business_id"),
-      icon: OfficeIcon,
+      icon: "🏢",
       component: <BusinessIdTab />,
     },
     {
       id: "vim-ESN",
       name: t("vim_ESN"),
-      icon: BrainIcon,
+      icon: "🧠",
       component: <EsnTab />,
     },
   ];

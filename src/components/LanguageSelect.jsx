@@ -9,7 +9,6 @@ const languages = [
 ];
 
 export default function LanguageSelect({ className }) {
-  const { t } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState(
     JSON.parse(localStorage.getItem("language")) || languages[0]
   );

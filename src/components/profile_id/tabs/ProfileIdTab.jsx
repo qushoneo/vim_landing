@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import KeyIcon from "../../../assets/key_large.png";
 import ProfileIdImage from "../../../assets/profile_id_image.png";
 
 export default function ProfileIdTab() {
@@ -8,7 +7,7 @@ export default function ProfileIdTab() {
   return (
     <div className="profile-id-tab">
       <div className="profile-id-tab__left">
-        <img src={KeyIcon} style={{ height: 58 }} />
+        <p style={{ fontSize: 58 }}>🔑</p>
         <p className="profile-id-tab__left-title">Vim Profile ID</p>
 
         <p className="profile-id-tab__left-description">

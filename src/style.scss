@@ -128,14 +128,14 @@ pre {
   height: fit-content;
   width: 100%;
   position: relative;
+  padding: 0px 0px 0px 64px;
 }
 
 .main-content-init-container {
   display: flex;
 
-  padding: 160px 0px 160px 64px;
+  padding: 160px 0px 160px 0px;
   height: 100%;
-  width: 100%;
 }
 
 .main-content-init-title {

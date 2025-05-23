@@ -1,7 +1,7 @@
 {
   "hint": "For whom",
-  "for_whom": "Benefits",
-  "description": "Build your own social network.\n Easily. Under your own brand.",
+  "for_whom": "Advantages",
+  "description": "One platform.\nThousands of opportunities.",
   "demo": "Demo",
   "register": "Register",
   "signup": "Sign up",
@@ -11,7 +11,7 @@
   "vim_business_id": "Vim Business ID",
   "vim_ESN": "Vim ESN",
   "profile_id_description": "Your personal digital profile that brings together all your contacts, links, social networks, media, and documents in one personal space.",
-  "profile_id_description_2": "Available via QR, NFC, or link. Allows you to centrally manage your brand, teams, and audience engagement.",
+  "profile_id_description_2": "Accessible via QR, NFC, or link. Allows you to centrally manage your brand, teams, and audience engagement.",
   "vim_profile_id_description_1": "Biography",
   "vim_profile_id_description_2": "CV",
   "vim_profile_id_description_3": "Offers",
@@ -19,7 +19,7 @@
   "vim_profile_id_description_5": "Business card right on your smartphone",
   "login": "Log in",
 
-  "esn_description_1": "A corporate social network allows companies, communities, and event organizers to create their own digital spaces.",
+  "esn_description_1": "The corporate social network allows companies, communities, and event organizers to create their own digital spaces.",
 
   "esn_description_2": "Internal communication and content sharing",
   "esn_description_3": "Profile, role, and access level management",
@@ -29,7 +29,7 @@
   "esn_description_7": "Full control, scalability, and complete branding — all within one platform",
 
   "business_id_description": "A digital profile for businesses, events, or communities that brings together personal profiles of employees, clients, subscribers, product and service pages, as well as marketing tools in one solution.",
-  "business_id_description_2": "Available via QR, NFC, or link. Allows you to centrally manage your brand, teams, and audience engagement.",
+  "business_id_description_2": "Accessible via QR, NFC, or link. Allows you to centrally manage your brand, teams, and audience engagement.",
   "esn_description": "The entire digital infrastructure of your community under the hood",
 
   "what_inside_title": "What's inside",
@@ -53,7 +53,7 @@
   "who_is_customer_title_4": "Mentors, online schools",
   "who_is_customer_description_4": "Marathon organizers",
   "who_is_customer_title_5": "HR teams, corporate communities",
-  "who_is_customer_description_5": "Those who conduct training, meetings, and want to create an asset",
+  "who_is_customer_description_5": "Those who conduct training, meetings, and want to build an asset",
   "who_is_customer_title_6": "Everyone who works \n with people",
   "who_is_customer_description_6": "Those who work with people and want to create an active and growing social network",
 
@@ -64,7 +64,7 @@
   "reason_disadvantage_1": "Chaos in chats and lost people",
   "reason_disadvantage_2": "Newcomers don't get involved in the community",
   "reason_disadvantage_3": "Content and discussions are scattered across platforms",
-  "reason_disadvantage_4": "Your brand gets lost on third-party platforms",
+  "reason_disadvantage_4": "Your brand gets lost on other platforms",
   "reason_disadvantage_5": "No way to scale",
   "reason_disadvantage_6": "Everything is manual",
 

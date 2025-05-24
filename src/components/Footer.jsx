@@ -21,13 +21,13 @@ export default function Footer({ setTab, tabs }) {
             {/* <a target="_blank" href="https://x.com/vimglobal">
               <img src={XLogo} />
             </a> */}
-            <a target="_blank" href="https://www.instagram.com/forum.boost/">
+            <a target="_blank" href="https://www.instagram.com/vim.global_">
               <img src={InstagramLogo} />
             </a>
             <a target="_blank" href="https://t.me/nfc_vim">
               <img src={TelegramLogo} />
             </a>
-            <a target="_blank" href="https://www.youtube.com/@BOOSTFORUM">
+            <a target="_blank" href="https://www.youtube.com/@VIMCompany-r8d">
               <img src={YoutubeLogo} />
             </a>
             <a
@@ -36,10 +36,7 @@ export default function Footer({ setTab, tabs }) {
             >
               <img src={LinkedinLogo} />
             </a>
-            <a
-              target="_blank"
-              href="https://www.facebook.com/people/Vim-Marketing/61569182005173/"
-            >
+            <a target="_blank" href="https://www.facebook.com/vinglobalESN">
               <img src={FacebookLogo} />
             </a>
           </div>
